@@ -121,9 +121,9 @@ const score = function() {
             gName.innerHTML = "China";
         } else if (inArr[1] === 3) {
             gName.innerHTML = "New Zealand";
-        } else if(inArr[2] === 3 && inArr[2] === 4) {
+        } if(inArr[2] === 3 && inArr[2] === 4) {
             gName.innerHTML = "South Africa";
-        } else if(inArr[1] === 2 && inArr[2] === 3) {
+        } if(inArr[1] === 2 && inArr[2] === 3) {
             gName.innerHTML = "Bangladesh";
         }
     } else if(inArr[0] === 2) {
@@ -131,7 +131,7 @@ const score = function() {
             gName.innerHTML = "India";
         } else if (inArr[1] === 4) {
             gName.innerHTML = "Australia";
-        } else if (inArr[1] === 3 && inArr[2] === 4) {
+        } if (inArr[1] === 3 && inArr[2] === 4) {
             gName.innerHTML = "Sri Lanka";
         }
     } else if(inArr[0] === 3)
